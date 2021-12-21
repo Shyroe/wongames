@@ -55,7 +55,7 @@ Run the following command in order to start the application in a development env
 
 _yarn dev_
 
-Commands Infos:
+### Commands Infos:
 - dev: runs your application on localhost:3000
 - build: creates the production build version
 - start: starts a simple server with the build production code
@@ -65,6 +65,8 @@ Commands Infos:
 - storybook: runs storybook on localhost:6006
 - build-storybook: create the build version of storybook
 
+## Backend Repo
+For backend Strapi for CMS was used. You can clone the backend repository here: https://github.com/Won-Games/api (needed for a better working frontend)
 
 
 ## ![ask and answer](https://img.icons8.com/nolan/30/faq.png) FAQ
