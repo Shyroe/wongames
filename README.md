@@ -1,59 +1,94 @@
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+![image](https://user-images.githubusercontent.com/32007101/146996044-db933abd-c80c-4b64-9c92-d5c2f695752a.png)
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
-## What is inside?
 
-This project uses lot of stuff as:
+# Project Deploy
+[Wongames Project (URL)](https://wongames.willianjusten.com.br)
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
-- [Cypress](https://www.cypress.io/)
+## Badges
 
-## Getting Started
+![alt](https://img.shields.io/badge/author-Shyroe-orange)
+![alt](https://img.shields.io/badge/languages-4-orange)
+![alt](https://img.shields.io/github/contributors/Shyroe/portfolio-saved.svg?style=flat&color=orange)
+![alt](https://img.shields.io/github/forks/Shyroe/portfolio-saved.svg?color=orange)
 
-First, run the development server:
+# ![contents](https://img.icons8.com/color/40/000000/pin.png) Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Features
+- Instalation
+- Getting Started
+- FAQ
+- Found a bug ? Missing a specific feature ?
+- Contributing
+- License
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ![#features](https://img.icons8.com/color/30/000000/rocket.png) Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Listing Games; Platforms and Publishers based at GOG API;
+- Games filters by categories (genres); recommended; upcomming, etc;
+- Integration with Payment Gatway (Stripe);
+- Integration with Strapi (CMS for Backend);
+- Create Routes Authenticated;
+- Create User Sign in and Sign up feature;
+- Create Feature for Wishlist products (games);
+- Integration with SMTP;
+- Profile Dashboard;
+- Cart Functionality;
 
-## Commands
+## ![built](https://img.icons8.com/color/30/000000/maintenance.png) Instalation
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+**You need to install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
 
-## Learn More
+_git clone https://github.com/Shyroe/repo.git_
 
-To learn more about Next.js, take a look at the following resources:
+SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+_git clone https://github.com/Shyroe/wongames.git_
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Install dependencies**
 
-## Deploy on Vercel
+_yarn install_
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ![start project](https://img.icons8.com/color/30/000000/running--v1.png) Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Run the following command in order to start the application in a development environment:
+
+_yarn dev_
+
+Commands Infos:
+- dev: runs your application on localhost:3000
+- build: creates the production build version
+- start: starts a simple server with the build production code
+- lint: runs the linter in all components and pages
+- test: runs jest to test all components and pages
+- test:watch: runs jest in watch mode
+- storybook: runs storybook on localhost:6006
+- build-storybook: create the build version of storybook
+
+
+
+## ![ask and answer](https://img.icons8.com/nolan/30/faq.png) FAQ
+
+**Question**: What are the tecnologies used in this project (Frontend)?
+
+**Answer**: NextJS; Styled Components; Eslint; Typescript; Jest; React Testing Library; Cypress; Storybook; Prettier; Husky; GraphQL; Stripe.
+
+**Question**: What are the tecnologies used in this project (Backend)?
+
+**Answer**: Strapi; Postgresql; Knex; Jsdom; Stripe.
+
+
+
+## ![there is a bug ? check this!](https://img.icons8.com/color/30/000000/mental-state.png) Issues
+
+Feel free to file a new issue with a respective title and description on the the Amazon Next repository. If you already found a solution to your problem, i would love to review your pull request! Have a look at our contribution guidelines to find out about the coding standards.
+
+## ![contribute to project](https://img.icons8.com/color/30/000000/hashtag-2.png) Contributing
+
+Check out the contributing page to see the best places to file issues, start discussions and begin contributing.
+
+## ![License](https://img.icons8.com/color/30/000000/book.png) License
+
+This project is under the MIT license.
+
+Made with love by Shyroe
